@@ -1,0 +1,105 @@
+html {
+    font-family: maiandra GD, Black Chansery, Bookman Old Style;
+    margin: 0; 
+    padding: 0; 
+}
+
+section{width:100%; height:1000px; float:left;}
+
+#pageA{background:#CEF0F0;}
+#pageB{background:#EDCFEE;}
+#pageC{background:#CFD6EE;}
+#pageD{background:#EECFE1;}
+#pageE{background:#ACEEEA;}
+
+
+nav{width:100%; position:fixed; z-index:1; top:60px;}
+.menu{width:fit-content; margin:auto; list-style:none;}
+ul li{float:left; margin-right:30px;}
+ul li a{color:#87568F; text decoration:none;}
+ul li a:hover{text-decoration:underline;}
+
+/*.table1 li
+{
+align-text:left;
+}*/
+
+
+h1{
+color:#87568F; 
+text-align:center; 
+margin-top:170px;
+text-decoration: none;
+}
+
+h3{
+color:#87568F; 
+text-align:center;
+text-decoration: none;
+}
+
+article{
+list-style-type: circle;
+font-size:18px;
+line-height:26px;
+text-align:left;
+margin-left: 25px;
+margin-right: 25px;
+}
+
+
+
+img {border-radius: 8px;}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin: 180px auto;
+}
+
+/*CONTACT FORM*/
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #F199DA;
+}
+
+.container {
+  border-radius: 5px;
+  /*background-color: #F5E7F5;*/
+  padding: 20px;
+}
+
+/*STYLE TUTORIAL*/
+iframe {text-align: center:}
+
+
+
+/* STYLE OF THE FOOTER */
+
+footer {
+  background-color: #E3ABC7;
+  padding: 50px 50 px;
+  text-align: center;
+  color: white;
+}
