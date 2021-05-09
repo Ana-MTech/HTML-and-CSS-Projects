@@ -1,0 +1,243 @@
+ body{
+   margin:0;
+   background-color: #D1D1D1;
+   color: #2A2A2A;
+   }
+
+  /*NAVBAR*/ 
+
+ .navbar {
+   overflow: hidden;
+   background-color: #333;
+   position: fixed;
+   top: 0;
+   width: 100%;
+ }
+
+ section{
+   width: 100%;
+   height: 800px;
+   float:left;
+ }
+
+ .navbar a {
+   float: left;
+   display: block;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 20px;
+ }
+
+ .navbar a:hover {
+   background: #ddd;
+   color:black;
+ }
+
+/*END OF NAVBAR*/
+
+.image1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 8px;
+  margin: 140px auto;
+  filter: grayscale(100%);
+}
+
+/*TEXT OVER THE IMAGE*/
+
+.container1 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.top-left {
+  position: absolute;
+  top: 18px;
+  left: 400px;
+}
+
+/*END OF TEXT OVER THE IMAGE*/
+
+/*unvisited link*/
+a:link { color: #fff; }
+
+/*visited link*/
+a:visited { color: #fff; }
+
+/*mouse over link*/
+a:hover { color: red; }
+
+/*OVERLAY - Container needed to position the overlay. Adjust the width*/
+.container2 {
+  position: relative;
+  width: 50%;
+}
+
+/*Make image to responcive*/
+.image2 {
+  display: block;
+  border-radius: 8px;
+  width: 70%;
+  margin: 150px 500px 20px 500px;
+  height: auto;
+}
+
+/*Theoverlay effect - full height and weight*/
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 500px;
+  right: 500px;
+  background-color: #333;
+  overflow: hidden;
+  width: 70%;
+  height: 100%;
+  -webkit-transform: scale(0)
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+/*When you mouse pass over container, your text will zoom*/
+.container2:hover .overlay {
+  -webkit-transform: scale(1)
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+/*Some text inside the overlay*/
+.text {
+  color: red;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*END OF OVERLAY*/
+
+/*vIDEO SIDE BY SIDE*/
+
+#wrapper {
+  width:920px;
+  height: auto;
+  margin: 0 auto;
+}
+
+#video1 {
+  width: 47.5%;
+  height: 300px;
+  float: left;
+  margin-right: 5%;
+}
+
+#video2 {
+  width: 47.5%;
+  height: 300px;
+  float: left;
+}
+
+.clear{
+  clear: both
+}
+
+/*END VIDEO SIDE BY SIDE*/
+
+.container2 {
+  position:relative;
+}
+
+.container2 video {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.container3 .overlayText {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  width: 100%;
+  z-index: 2;
+}
+
+.container2 .Text {
+  color: red;
+  align-self: ;
+}
+
+
+
+/*TWO COLUMN LAYOUT*/
+
+.row {
+  display:flex;
+
+}
+.column {
+  float:left;
+  width: 50%;
+  padding: 50px;
+  width: 50%;
+  margin: 0 60px 0 60px;
+  text-align: center;
+  }
+
+h3 { color: #D1D1D1;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*END OF COLUMN*/
+
+/*TABLE*/
+
+table {
+  width:70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+#t01 th {
+  color: white;
+  background-color: black;
+}
+
+/*END OF TABLE*/
+
+#footer {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+      }
